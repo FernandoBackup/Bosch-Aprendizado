@@ -1,0 +1,28 @@
+.ads-container{
+    position: absolute;
+    left: 0;
+    top: 80px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 460px;
+}
+.ads-text{ 
+    left:520px;
+    z-index: 97;
+    padding-top: 100px;
+    height: 78%;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    color: rgb(255, 0, 0);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px
+}
+.ads-image{
+    top: 50px;
+    left: 200px;
+    z-index: 97;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+}

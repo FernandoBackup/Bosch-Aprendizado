@@ -1,0 +1,10 @@
+<app-nav-bar></app-nav-bar>
+<app-ads></app-ads>
+<div class="product-list">
+  <app-product-card 
+    *ngFor="let product of products"
+    [imageUrl]="product.imageUrl"
+    [price]="product.price"
+    [description]="product.description" class="card">
+  </app-product-card>
+</div>
