@@ -1,6 +1,5 @@
 .product-list {
-
-  background-color: rgb(41, 41, 41);
+  background-color: rgb(51, 51, 51);
   padding-top: 550px;
   display: flex;
   flex-wrap: wrap; 
