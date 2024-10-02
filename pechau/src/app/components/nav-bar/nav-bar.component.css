@@ -1,7 +1,7 @@
 .pechau-nav-bar{
     border: 1px solid black;
     width: 100%;
-    height: 80px;
+    height: 100px;
     background-color: rgb(26, 26, 26);
     display: flex;
     position: fixed;
@@ -10,6 +10,8 @@
     z-index: 99;
 }
 .pechau-title{
+    top: 15px;
+    position: absolute;
     margin-left: 10px;
     z-index: 100;
     color: white;

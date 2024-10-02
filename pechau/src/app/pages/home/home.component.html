@@ -2,10 +2,10 @@
 <app-ads></app-ads>
 <div class="product-list">
   <app-product-card 
-    *ngFor="let product of products"
-    [imageUrl]="product.imageUrl"
-    [price]="product.price"
-    [description]="product.description" class="card">
+    *ngFor="let product of productsApi"
+    [imageUrl]="product.webformatURL"
+    [price]="product.likes"
+    [description]="product.tags" class="card">
   </app-product-card>
 </div>
 <app-cart></app-cart>

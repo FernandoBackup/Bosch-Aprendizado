@@ -21,3 +21,8 @@
 .description {
   margin-top: 8px;
 }
+
+.image{
+  width: 300px!important;
+  height: 270px!important;
+}
