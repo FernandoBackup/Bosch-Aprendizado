@@ -35,7 +35,7 @@ Para rodar a aplicação localmente, você precisará:
 ## Instruções para rodar a aplicação localmente
 1. Clone o repositório da aplicação.
 2. Configure a API `ApiServiceWeather` e o `FileService` de acordo com as suas necessidades.
-3. Compile e execute a aplicação utilizando o Spring Framework, com o comando mvn spring-boot:run.
+3. Compile e execute a aplicação utilizando o Spring Framework, com o comando `mvn spring-boot:run`.
 4. Acesse a aplicação em um navegador web, utilizando a URL `http://localhost:8080/home/`.
 5. Insira a latitude e longitude desejadas e clique em "Enviar".
 6. A aplicação exibirá os dados climáticos para a localização especificada.
