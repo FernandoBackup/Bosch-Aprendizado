@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherlizer</title>
+    <link rel="stylesheet" href="/static/styles/home.css">
+</head>
+<body>
+<div class="container">
+    <h1>Bem vindo(a) ao Weatherlizer!</h1>
+    <p>O melhor lugar para consultar o tempo por latitude e longitude: simples, rápido e fácil!</p>
+    <button onclick="location.href='http://localhost:8081/home/weather/'">Acessar agora!</button>
+</div>
+<div>
+    <img src="" alt="">
+</div>
+</body>
+<style>
+    body{
+        body {
+    font-family: 'Arial', bold;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Arial', bold;
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #ff5722;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+    }
+</style>
+</html>
